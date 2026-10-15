@@ -1,0 +1,47 @@
+/* خط الصفحة */
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* الصورة ثابتة على الشمال */
+img {
+    padding-left: 10%;
+    float: left;
+}
+/* الفورم يتحرك يمين الصورة */
+.form {
+    margin-left: 60%;
+    font-size: 24px;
+}
+
+/* العنوان في النص وتحته خط أحمر */
+h1 {
+    text-align: center;
+    border-bottom: 3px solid red;
+    margin-left: 50%;
+}
+
+/* كل لابل له نفس العرض عشان الحقول تتظبط تحت بعض */
+label {
+    display: inline-block;
+    width: 130px;
+    vertical-align: top;
+}
+
+/* مسافة بين كل حقل والتاني */
+div {
+    margin-bottom: 10px;
+}
+
+/* حجم مربع الرسالة */
+textarea {
+    width: 320px;
+    height: 70px;
+}
+
+/* الاختيارات تنزل جنب كلمة Appointment Type */
+.appointment-type span {
+    display: block;
+    margin-left: 150px;
+    margin-top: -50px;
+}

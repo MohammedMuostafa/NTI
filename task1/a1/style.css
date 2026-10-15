@@ -1,0 +1,45 @@
+body {
+    background: #1b2a4a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* عنوان ذهبي */
+h1 {
+    color: #c9a227;
+    font-family: "Times New Roman", Times, serif;
+    margin: 20px;
+}
+
+/* الجملة اللي تحت العنوان */
+.intro {
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+
+/* المربع الأزرق */
+.places {
+    background: #4d74ad;
+    padding-bottom: 32%;
+}
+
+/* كل مكان ياخد نص العرض ويقف شمال */
+.place {
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* النص يقف شمال الصورة */
+.place p {
+    float: left;
+    width: 50%;
+}
+
+/* الصورة يمين النص */
+.place img {
+    width: 45%;
+    height: 140px;
+    margin-left: 0px;
+}
